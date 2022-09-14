@@ -65,7 +65,9 @@ class ApiController extends Controller
             $items = $items->filter($request->all());
         }
 
-        return $items->latest();
+        // return $items->latest();
+
+        return $items;
     }
 
     /**
