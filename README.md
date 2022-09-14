@@ -106,6 +106,10 @@ cp .env.example .env
 ```sh
 composer install
 ```
+4. Generate the application key.
+```sh
+php artisan key:generate
+```
 > This app uses sqlite database with zero configuration. 
 ## Initialize the app
 Run `php artisan app:init` to initialize the application with all the necessary data. Optionally, if you want to use the built-in PHP development server, you may run `php artisan serve`.
